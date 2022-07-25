@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/ecommerce-react-app-v2/static/css/main.d86f8661.css",
+    "main.js": "/ecommerce-react-app-v2/static/js/main.6f161216.js",
+    "static/js/787.4bb2dbfb.chunk.js": "/ecommerce-react-app-v2/static/js/787.4bb2dbfb.chunk.js",
+    "static/media/banner-image1.PNG": "/ecommerce-react-app-v2/static/media/banner-image1.419ab51ccad06b87df1b.PNG",
+    "static/media/empty-cart.PNG": "/ecommerce-react-app-v2/static/media/empty-cart.b76d8da303a86ddbe8ce.PNG",
+    "static/media/venia-logo.PNG": "/ecommerce-react-app-v2/static/media/venia-logo.b6a0a8ce7f654036170e.PNG",
+    "static/media/sliders.svg": "/ecommerce-react-app-v2/static/media/sliders.07a0e59562aded129aac7c8a5259c413.svg",
+    "static/media/sunset.svg": "/ecommerce-react-app-v2/static/media/sunset.8a841b3b95440611e10b8c5bb7f4aed2.svg",
+    "static/media/share-2.svg": "/ecommerce-react-app-v2/static/media/share-2.c9452d8d0a01f15f7b30c66f52b97baa.svg",
+    "index.html": "/ecommerce-react-app-v2/index.html",
+    "static/media/instagram.svg": "/ecommerce-react-app-v2/static/media/instagram.098205e681981cff2deaa43da7f8afa7.svg",
+    "static/media/arrow-right-circle.svg": "/ecommerce-react-app-v2/static/media/arrow-right-circle.957953b5dffd6f429225a5a8d3176cb1.svg",
+    "static/media/shopping-bag.svg": "/ecommerce-react-app-v2/static/media/shopping-bag.7865a20d4f73677ab5144fd6411a11f8.svg",
+    "static/media/arrow-left-circle.svg": "/ecommerce-react-app-v2/static/media/arrow-left-circle.64523b475812dd861c1e61fb77e08cab.svg",
+    "static/media/shopping-bag-white.svg": "/ecommerce-react-app-v2/static/media/shopping-bag-white.37561a43c7b22eee98debc114ea20c9b.svg",
+    "static/media/menu.svg": "/ecommerce-react-app-v2/static/media/menu.00b6659cfa8e98b12c0680b419f84ac3.svg",
+    "static/media/user.svg": "/ecommerce-react-app-v2/static/media/user.36f9dff636796a3645348ee7f29f2509.svg",
+    "static/media/search.svg": "/ecommerce-react-app-v2/static/media/search.d9388588132a09c360a92e9f450b2fa1.svg",
+    "static/media/arrow-up.svg": "/ecommerce-react-app-v2/static/media/arrow-up.bffb5a388e9ce654e32b9665d1dbed6d.svg",
+    "static/media/x.svg": "/ecommerce-react-app-v2/static/media/x.18ffa5a5f6cf0611910c94c00b129ba6.svg",
+    "static/media/arrow-down.svg": "/ecommerce-react-app-v2/static/media/arrow-down.ad1e372bfba7126beaef93d275515815.svg",
+    "static/media/twitter.svg": "/ecommerce-react-app-v2/static/media/twitter.3d9f31115be6b897b5d45c0aad4c1c1f.svg",
+    "static/media/heart.svg": "/ecommerce-react-app-v2/static/media/heart.3b35352339d37da7c50b5bcdbc557cd0.svg",
+    "static/media/star.svg": "/ecommerce-react-app-v2/static/media/star.55cdb6a54c038786c25f41486284f7d2.svg",
+    "static/media/facebook.svg": "/ecommerce-react-app-v2/static/media/facebook.b5b54c5572636785078aa70b8bdffe26.svg",
+    "static/media/chevron-right.svg": "/ecommerce-react-app-v2/static/media/chevron-right.ee59aa22b6bf156e0eb4aea386711bbf.svg",
+    "static/media/chevron-down.svg": "/ecommerce-react-app-v2/static/media/chevron-down.c0c85f0327c8b7a8c6de6a3e5de52404.svg",
+    "static/media/check.svg": "/ecommerce-react-app-v2/static/media/check.ffd4d9f896701562a4cb.svg",
+    "main.d86f8661.css.map": "/ecommerce-react-app-v2/static/css/main.d86f8661.css.map",
+    "main.6f161216.js.map": "/ecommerce-react-app-v2/static/js/main.6f161216.js.map",
+    "787.4bb2dbfb.chunk.js.map": "/ecommerce-react-app-v2/static/js/787.4bb2dbfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d86f8661.css",
+    "static/js/main.6f161216.js"
+  ]
+}
