@@ -1,0 +1,652 @@
+.cart-wrapper {
+    height: auto;
+    max-width: 1396px;
+    width: calc(100% - 24px);
+    margin-bottom: 24px;
+
+    @include tablet-down {
+        width: 100%;
+        margin: 0;
+    }
+    @include tablet {
+        width: 100%;
+        margin: 0;
+    }
+
+    font: {
+        style: $unnamed-font-style-normal;
+        variant: normal;
+        weight: $unnamed-font-weight-normal;
+        size: $unnamed-font-size-16;
+        family: $unnamed-font-family-muli;
+    }   
+    line-height: $unnamed-line-spacing-24;
+    letter-spacing:  $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    text-align: left;
+
+    h3 {
+        font-size: $unnamed-font-size-16;
+        line-height: $unnamed-line-spacing-24;
+    }
+    h4 {
+        font: {
+            weight: $unnamed-font-weight-600;
+            size: 20px;
+        }   
+        line-height: 25px;
+
+        @include tablet-down {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+
+    .cart-header {
+        @include flexBox(column, space-between, center);
+        width: 100%;
+        height: 80px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+
+        @include tablet-down {
+            @include flexBox(column, space-evenly, center);
+            height: auto;
+            margin-bottom: 32px;
+        }
+        @include tablet {
+            @include flexBox(column, space-evenly, center);
+            height: 67px;
+            margin-bottom: 32px;
+            height: auto;
+        }
+
+        h1 {
+            font: {
+                weight: $unnamed-font-weight-600;
+                size: $unnamed-font-size-48;
+                family: 'Source Serif Pro';
+            }
+            line-height: $unnamed-line-spacing-45;
+            text-align: center;
+            margin-top: 10px;
+
+
+            @include tablet-down {
+                font-size: 36px;
+            }
+            @include tablet {
+                font-size: 42px;
+            }
+            @include phone-small {
+                font-size: 24px;
+            }
+        }
+        .line {
+            width: 102px;
+            height: 8px;
+            background: $primary-brand 0% 0% no-repeat padding-box;
+            margin-top: 10px;   
+
+            @include tablet-down {
+                margin-top: 12px;  
+            }
+            @include tablet {
+                margin-top: 12px;  
+            }
+            @include phone-small {
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .cart-wrapper {
+        @include flexBox(row, '', '');
+        width: 100%;
+
+        @include tablet-down {
+            @include flexBox(column, '', '');
+        }
+        @include tablet{
+            @include flexBox(column, '', '');
+        }
+
+        .cart-info {
+            width: 804px;
+            height: auto;
+            margin-right: 132.5px;
+
+            @include tablet-down{
+                width: 100%;
+            }
+            @include desktop-down {
+                width: 100%;
+            }
+
+            .cart-items {
+                    min-height: 463px;
+                    height: auto;
+                    width: calc(100% + 50px);
+
+                @include tablet-down {
+                    min-height: 0px;
+                    width: 100%;
+                    height: auto;
+                }
+                @include tablet {
+                    min-height: 0px;
+                    width: 100%;
+                    height: auto;
+                }
+
+                .cart-item {
+                    @include flexBox(row, space-between, center);
+                    height: 199px;
+                    margin-bottom: 33.56px;
+
+                    @include tablet-down {
+                        @include flexBox(row, space-between, '');
+                        margin-bottom: 48px;
+                        height: 163px;
+                    }
+                    @include tablet {
+                        @include flexBox(row, space-between, '');
+                        margin-bottom: 48px;
+                        height: 215px;
+                    }
+
+                    .item-image {
+                        width: 166px;
+                        height: 199px;
+                    }
+
+                    .buttons-group  {
+                        height: 80%;
+                        width: 22%;
+                        padding: 5px;
+                    }
+
+                    .item-image {
+                        img {
+                            width: 100%;
+                            height: 100%;
+
+                            @include tablet-down {
+                                width: 100%;
+                                height: 81%;
+                            }
+                            @include tablet {
+                                width: 100%;
+                                height: 100%;
+                            }
+                        }
+                        @include tablet-down {
+                            width: 29%;
+                            height: 163px;
+                        }
+                        @include tablet {
+                            width: 28%;
+                            height: 180px;
+                        }
+                    }
+                    .item-attributes {
+                        @include flexBox(row, center, center);
+                        height: 100%;
+
+                        @include tablet-down {
+                            display: block;
+                            width: 228px;
+                            height: 163px;
+                            width: 58%;
+                        }
+                        @include tablet {
+                            display: block;
+                            width: 228px;
+                            height: 170px;
+                            width: 57%;
+                        }
+
+                        .item-info {
+                            width: 245px;
+                            height: 100%;
+
+                            @include tablet-down {
+                                width: 84%;
+                            }
+
+                            h3 {
+                                @include tablet {
+                                    font-size: 18px;
+                                }
+                            }
+
+                            h4, h3 {
+                                margin-bottom: 8px;
+                            }
+                            h4 {
+                                width: 245px;
+                                @include tablet-down {
+                                    width: 195px;
+                                }
+                                @include tablet {
+                                    width: 250px;
+                                    font-size: 24px;
+                                }
+                            }
+                        }
+                        .cart-item-quantity {
+                            @include tablet-down {
+                                float: left;
+                            }
+                            @include tablet {
+                                float: left;
+                            }
+                            .btn-item-quantity-group {
+                                @include flexBox(row,space-between,center);
+                                width: 168px;
+                                height: 40px;
+
+                                margin: {
+                                    top: -8px;
+                                    bottom: 40px;
+                                }
+                                h4 {
+                                    @include tablet-down {
+                                        font-size: 18px;
+                                        line-height: 18px;
+                                    }
+                                    @include tablet {
+                                        font-size: 18px;
+                                        line-height: 18px;
+                                    }
+                                }
+
+                                button, #cartItemCount {
+                                    background: $white 0% 0% no-repeat padding-box;
+                                    border: 2px solid $gray-m1;
+                                    text-align: center;
+                                    font: {
+                                        weight: $unnamed-font-weight-600;
+                                        size: $unnamed-font-size-16;
+                                    }
+                                    color: $unnamed-color-172026;
+                                }
+                                button {
+                                    mix-blend-mode: normal;
+                                    border-radius: 50%;
+                                    width: 32px;
+                                    height: 32px;
+                                    display: inline-flex;
+                                    align-items: center;
+                                    text-align: center;
+                                    font-size: 26px;
+                                    font-family: normal;
+                                    color: #91959C;
+                                    cursor: pointer;
+
+                                    &:disabled {
+                                        background-color: $gray-l1;
+                                    }
+
+                                }
+                                #cartItemCount {
+                                    width: 88px;
+                                    height: 40px;
+                                    border-radius: 8px;
+                                    margin: 0 0;
+                                    padding: 8px 10px 6px;
+                                    text-align: center;
+                                    font-size: 16px;
+                                    color: #91959C;
+                                    
+                                    @include tablet {
+                                        margin: 0 8px;
+                                        padding: 10px 15px;
+                                    }
+                                    @include tablet-down {
+                                        margin: 0 8px;
+                                        padding: 10px 15px;
+                                    }
+                                }
+
+                                @include tablet-down {
+                                    @include flexBox(row, center, center);
+                                    width: 100%;
+                                    height: 33%;
+                                    padding: 10px 15px;
+                                    margin: -40px 0 0 -16px;
+                                }
+                                @include tablet {
+                                    @include flexBox(row,center,center);
+                                    width: 100%;
+                                    height: 33%;
+                                    padding: 10px 15px;
+                                    margin: -20px 0 0 -16px;
+                                }
+
+                            }
+                        }
+                    }
+                    .buttons-group {
+                        @include flexBox(column,'',center);
+                        width: 100px;
+                        height: 100%;
+                        margin-top: 60px;
+
+                        @include tablet-down {
+                            @include flexBox(column,space-between,center);
+                            visibility: hidden;
+                            width: calc(100% - 40px);
+                            height: 132px;
+                            padding: 0px 0;
+                            border: 2px solid #EAEBEB;
+                            background-color: #FFFFFF;
+                            position: absolute;
+                            margin-top: -73px;
+
+                            &.active {
+                                visibility:visible;
+                            }
+                        }
+                        
+                        @include tablet {
+                            @include flexBox(column,space-between,center);
+                            visibility: hidden;
+                            width: calc(100% - 40px);
+                            height: 151px;
+                            padding: 0px 0;
+                            border: 2px solid #EAEBEB;
+                            background-color: #FFFFFF;
+                            position: absolute;
+                            margin-top: -39px;
+
+                            &.active {
+                                visibility:visible;
+                            }
+                        }
+
+                        .btn-close {
+                            display: none;
+                            width: 100%;
+                            @include flexBox(row,flex-end, center);
+                            background-color: #EAEBEB;
+
+                            @include tablet-down {
+                                display: inline-flex;
+                            }
+                            @include tablet {
+                                display: inline-flex;
+                            }
+
+                            #btn-mobile-cross {
+                                display: none;
+                                font-size: 20px;
+                                width: 25px;
+                                height: 10px;
+                                background-color: #EAEBEB;
+                                @include tablet-down {
+                                    display: block;
+                                }
+                                @include tablet {
+                                    display: block;
+                                    font-size: 26px;
+                                    width: 40px;
+                                    height: 20px;
+                                    padding: 12px 4px;
+                                }
+                            }
+                        }
+
+                        button {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: none;
+                            background-color: $white;
+                            margin-bottom: 16px;
+                            text-align: center;
+                            width: 100px;
+                            height: 15px;
+                            cursor: pointer;
+
+                            &:last-child {
+                                width: 114px;
+                                margin-left: 28px;
+                            }
+
+                            font: {
+                                weight: $unnamed-font-weight-600;
+                                size: 12px;
+                            }
+                            line-height: 14px;
+                            img { 
+                                width: 16px;
+                                height: 16px;
+                                margin-right: 8px;
+                            }
+                        }
+
+                    }
+                    .button-group-menu {
+                        display: none;
+                        @include tablet-down {
+                            display: block;
+                            margin-top: -158px;
+                            width: 10%;
+                            button {
+                                background-color: $white;
+                                border: none;
+                                font-size: 30px;
+                                color: $unnamed-color-172026;
+                                cursor: pointer;
+                            }
+                        }
+                        @include tablet {
+                            display: block;
+                            margin-top: -158px;
+                            width: 10%;
+                            button {
+                                background-color: $white;
+                                border: none;
+                                font-size: 30px;
+                                color: $unnamed-color-172026;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+            .cart-other-details {
+                @include flexBox(column, center, '');
+                max-width: 905px;
+                width: calc(100% + 125px);
+                margin: 11px 32px 0 0;
+
+                @include tablet-down {
+                    height: 200px;
+                    width: 100%;
+                    margin-bottom: 24px;
+                    margin-top: 24px;
+                }
+                @include tablet{
+                    height: 200px;
+                    width: 100%;
+                    margin-bottom: 24px;
+                    margin-top: 24px;
+                }
+
+                .details-container {
+                    @include flexBox(row, space-between, center );
+                    border: 1px solid $gray-m1;
+                    height: 73px;
+                    width: 100%;
+                    padding: 24px 23px;
+
+                    @include tablet-down {
+                        padding: 18px 24px;
+                        display: block;
+                        width: 100%;
+                    }
+                    @include tablet {
+                        padding: 18px 24px;
+                        display: block;
+                        width: 100%;
+                    }
+
+                    .section-1 {
+                        width: 75%;
+                        h4 {
+                            font-weight: $unnamed-font-weight-normal;
+                            @include tablet-down {
+                                font-size: 18px;
+                                line-height: 18px;
+                                width: 100%;
+                            }
+                            @include tablet {
+                                font-size: 18px;
+                                line-height: 18px;
+                                width: 100%;
+                            }
+                            @include phone-small {
+                                font-size: 15px;
+                                line-height: 14px;
+                                width: 100%;
+                            }
+                        }
+                    }
+                    .section-2 {
+                        @include flexBox(row, flex-end, center);
+                        width: 35%;
+                        @include tablet-down {
+                            @include flexBox(row, space-between, center);
+                            line-height: 17.5px;
+                            width: 100%;
+                            margin-top: 6px;
+                            height: 18px;
+                        }
+                        @include tablet {
+                            @include flexBox(row, space-between, center);
+                            line-height: 17.5px;
+                            width: 100%;
+                            margin-top: 6px;
+                            height: 18px;
+                        }
+                        h5 {
+                            font-size: $unnamed-font-size-14;
+                        }
+                        button {
+                            background-color: $white;
+                            border: none;
+                            cursor: pointer;
+
+                            @include tablet-down {
+                                font-size: 12px;
+                                position: relative;
+                                margin-top: -45px;
+                            }
+                            @include tablet {
+                                font-size: 12px;
+                                position: relative;
+                                margin-top: -45px;
+                            }
+                            img {
+                                margin-left: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .price-summary {
+            @include flexBox(column, space-between, '');
+            background: $white 0% 0% no-repeat padding-box;
+            box-shadow: 0px 0px 8px #0000000D;
+            border: 1px solid #D1D3D6;
+            border-radius: 2px;
+            width: 40%; 
+            height: 450px;
+            padding: 32px;
+            margin-bottom: 24px;
+            margin-left: 32px;
+
+            h4 {
+                font-weight: $unnamed-font-weight-600;
+
+                @include tablet-down {
+                    margin-bottom: 24px;
+                }
+                @include tablet {
+                    margin-bottom: 24px;
+                }
+            }
+
+            @include tablet-down {
+                border: none;
+                width: 100%;
+                padding: 24px 0 24px 0;
+                margin-left: 0;
+            }
+            @include tablet {
+                border: none;
+                width: 100%;
+                padding: 24px 0 24px 0;
+                margin-left: 0;
+            }
+
+            .price-list-group {
+                @include flexBox(column, space-between, '');
+                height: 200px;
+                .price-item {
+                    @include flexBox(row, space-between, '');
+
+                    &.estimated-total {
+                        h3 {
+                            font-weight: $unnamed-font-weight-bold;
+                        }
+                    }
+                }
+            }
+            .button-group {
+                @include flexBox(column, space-between , center);
+                height: 105px;
+
+                @include tablet-down {
+                    margin-top: 40px;
+                }
+                @include tablet {
+                    margin-top: 40px;
+                }
+
+                button {
+                    border-radius: 28px;
+                    width: 247px;
+                    height: 40px;
+                    border: none;
+                    cursor: pointer;
+                }
+                #btn-checkout {
+                    @include flexBox(row, center, center);
+                    background: $primary-brand 0% 0% no-repeat padding-box;
+                    color: $white;
+                    text-align: center;
+                    cursor: pointer;
+                    font : {
+                        style: $unnamed-font-style-normal;
+                        variant: $unnamed-font-style-normal;
+                        weight: $unnamed-font-weight-bold;
+                        size: $unnamed-font-size-14;
+                        family: $unnamed-font-family-muli
+                    }
+                    line-height: 16px;
+                    img {
+                        margin-right: 8px;
+                        width: 16px;
+                        height: 13px;
+                        margin-top: -4px;
+                    }
+                }
+            }
+        }
+    }
+
+}

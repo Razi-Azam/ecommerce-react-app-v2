@@ -1,0 +1,50 @@
+// breaking points
+$mobile : 320px;
+$tablet : 768px;
+$desktop : 1024px;
+$desktop-md : 1280px;
+$desktop-lg : 1440px;
+$desktop-xl-width : 1920px;
+
+// for width between 320px 360px
+@mixin phone-small {
+    @media screen and (min-width: $mobile) and (max-width: ($mobile + 40)) {
+    @content;
+ }
+}
+
+// for 767px width
+@mixin tablet-down {
+    @media screen and (max-width: ($tablet - 1 )) {
+    @content;
+ }
+}
+
+//for width between 768px and 992px
+@mixin tablet {
+    @media screen and (min-width: $tablet) and (max-width: ($desktop - 32)) {
+      @content;
+    }
+}
+  
+  // for max width 1279px
+  @mixin desktop-md-down{
+    @media screen and (max-width: ($desktop-md - 1)) {
+      @content;
+    }
+}
+   
+  //for max width: 991px
+  @mixin desktop-down {
+    @media screen and (max-width: ($desktop - 33)) {
+      @content;
+    }
+}
+  
+  //for width between 992px and 1280px
+  @mixin desktop {
+    @media screen and (max-width: $desktop-md) and (min-width: ($desktop - 32)) {
+      @content;
+    }
+}
+

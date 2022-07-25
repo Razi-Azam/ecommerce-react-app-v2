@@ -1,0 +1,29 @@
+.container {
+    max-width: 1411px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+  }
+
+//for mobile
+@include tablet-down {
+  .container {
+    max-width: 767px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    padding: 0 16px;
+  }  
+}
+
+//for tablet
+@include tablet {
+  .container {
+    max-width: 992px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+  }  
+}

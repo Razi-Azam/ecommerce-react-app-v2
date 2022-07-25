@@ -1,0 +1,15 @@
+@import './styles/reset';
+@import './styles/variables';
+@import './styles/mixin';
+@import './styles/font-face';
+@import './styles/mediaQueries';
+
+@import './components/container/Container.scss';
+@import './components/header/Header.scss';
+@import './components/banner/CategoryBanner.scss';
+@import './components/footer/Footer.scss';
+@import './components/product-list/ProductList.scss';
+@import './components/product-details/ProductDetails.scss';
+@import './components/cart/Cart.scss';
+@import './components/cart/EmptyCartAlert.scss';
+@import './components/product-details/Slider/Slider.scss';

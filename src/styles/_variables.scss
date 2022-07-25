@@ -1,0 +1,162 @@
+
+    /* Colors: */
+    $primary-d1: #172BC4;
+    $primary-m1: #336DFF;
+    $primary-brand: #1F39FF;
+    $primary-l1: #3D84FF;
+    $gray-d2: #181C24;
+    $gray-d1: #535965;
+    $gray-m1: #91959C;
+    $gray-l2: #B5B7BC;
+    $gray-l1: #E5E5E7;
+    $white: #FFFFFF;
+    $positive-2: #12805C;
+    $positive-1: #268E6C;
+    $negative-2: #C9252D;
+    $negative-1: #D7373F;
+    $unnamed-color-172026: #172026;
+    
+    /* Font/text values */
+    $unnamed-font-family-muli: "muli";
+    $unnamed-font-family-source-serif-pro: "Source_Serif_Pro";
+    $unnamed-font-family-proxima-nova: "proxima-nova";
+    $unnamed-font-style-normal: normal;
+    $unnamed-font-style-italic: italic;
+    $unnamed-font-weight-600: 600;
+    $unnamed-font-weight-normal: normal;
+    $unnamed-font-weight-bold: bold;
+    $unnamed-font-size-14: 14px;
+    $unnamed-font-size-16: 16px;
+    $unnamed-font-size-20: 20px;
+    $unnamed-font-size-24: 24px;
+    $unnamed-font-size-36: 36px;
+    $unnamed-font-size-48: 48px;
+    $unnamed-character-spacing-0: 0px;
+    $unnamed-line-spacing-20: 20px;
+    $unnamed-line-spacing-21: 21px;
+    $unnamed-line-spacing-24: 24px;
+    $unnamed-line-spacing-25: 25px;
+    $unnamed-line-spacing-30: 30px;
+    $unnamed-line-spacing-32: 32px;
+    $unnamed-line-spacing-45: 45px;
+    $unnamed-line-spacing-60: 60px;
+    $unnamed-line-spacing-17-5: 17.5px;
+    
+    /* Character Styles */
+    .display-xl-48-dekstop-only {
+    font-family: $unnamed-font-family-source-serif-pro;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-48;
+    line-height: $unnamed-line-spacing-60;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .display-l-36- {
+    font-family: $unnamed-font-family-source-serif-pro;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-36;
+    line-height: $unnamed-line-spacing-45;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .display-m-24- {
+    font-family: $unnamed-font-family-source-serif-pro;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-24;
+    line-height: $unnamed-line-spacing-30;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .display-s-20- {
+    font-family: $unnamed-font-family-source-serif-pro;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-20;
+    line-height: $unnamed-line-spacing-25;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regular-heading-xl-24- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-24;
+    line-height: $unnamed-line-spacing-30;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regular-heading-l-20- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-20;
+    line-height: $unnamed-line-spacing-25;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regular-heading-m-16- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-600;
+    font-size: $unnamed-font-size-16;
+    line-height: $unnamed-line-spacing-20;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regular-heading-s-14- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-bold;
+    font-size: $unnamed-font-size-14;
+    line-height: $unnamed-line-spacing-17-5;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regular-body-l-20- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-20;
+    line-height: $unnamed-line-spacing-30;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regualr-body-m-16- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-16;
+    line-height: $unnamed-line-spacing-24;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .regular-body-s-14- {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-14;
+    line-height: $unnamed-line-spacing-21;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $unnamed-color-172026;
+    }
+    .blockquote {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-italic;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-20;
+    line-height: $unnamed-line-spacing-30;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $gray-d2;
+    }
+    .numbered-list {
+    font-family: $unnamed-font-family-muli;
+    font-style: $unnamed-font-style-normal;
+    font-weight: $unnamed-font-weight-normal;
+    font-size: $unnamed-font-size-16;
+    line-height: $unnamed-line-spacing-32;
+    letter-spacing: $unnamed-character-spacing-0;
+    color: $gray-d2;
+    }

@@ -1,0 +1,167 @@
+.banner-wrapper {
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    height: 352px;
+    margin-top: 33px;
+
+    .banner-section1 {
+        @include flexBox(column, center, center);
+        width: 582px;
+        height: 352px;
+        background: #1B252C 0% 0% no-repeat padding-box;
+
+        @include tablet {
+            top: 244px;
+            height: 196px;
+        }
+
+        h2 {
+            width: 374px;
+            font : {
+                style: $unnamed-font-style-normal;
+                variant: $unnamed-font-style-normal;
+                weight: $unnamed-font-weight-600;
+                size: $unnamed-font-size-48;
+                family: "Source Serif Pro";
+            }
+            line-height: $unnamed-line-spacing-60;
+            font-size: 48px;
+            text-align: center;
+            color: $white;
+        }
+        .line {
+            width: 102px;
+            height: 8px;
+            margin-top: 32px;
+            background: $primary-brand 0% 0% no-repeat padding-box;
+        }
+    }
+
+    .banner-section2 {
+        img {
+            max-width: 856px;
+            width: 100%;
+            height: 320px;
+            @include desktop-down {
+                max-width: 100%;
+            }
+        }
+        padding: 14px 0px;
+    }
+}
+
+//for mobile
+@include tablet-down {
+    .banner-wrapper {
+        @include flexBox(column-reverse, center, center);
+        max-width: 343px;
+        width: 100%;
+        margin-top: 0;
+        height: auto;
+        margin-bottom: 130px;
+
+        .banner-section1 {
+            @include flexBox(column, center, center);
+            max-width: 343px;
+            width: 100%;
+            position: absolute;
+            padding: 0px 0px;
+            top: 145px;
+            height: 159px;
+            h2 {
+                width: 176px;
+                height: 103px;
+                font: $unnamed-font-style-normal normal $unnamed-font-weight-600 calc($unnamed-font-size-36/$unnamed-line-spacing-60) $unnamed-font-family-source-serif-pro;
+                font-size: 36px;
+            }
+            .line {
+                margin-top: 0;
+            }
+        }
+    
+        .banner-section2 {
+            img {
+                width: 100%;
+                height: 193px;
+            }
+            padding: 0;
+        }
+    }
+}
+
+//for tablet
+@include desktop-down {
+    .banner-wrapper {
+        @include flexBox(column-reverse, center, center);
+        max-width: 952px;
+        width: 100%;
+        margin-top: 0;
+        height: auto;
+        margin-bottom: 130px;
+
+        .banner-section1 {
+            @include flexBox(column, center, center);
+            max-width: 952px;
+            width: calc(100% - 40px);
+            position: absolute;
+            padding: 0px 0px;
+            h2 {
+                line-height: 42px;
+                font-size: 36px;
+            }
+            .line {
+                margin-top: 0;
+            }
+        }
+    
+        .banner-section2 {
+            padding: 0;
+            width: calc(100% + 40px);
+            img {
+                width: 100%;
+            }
+            padding: 0;
+        }
+    }
+}
+
+//for tablet
+@include tablet {
+    .banner-wrapper {
+        @include flexBox(column-reverse, center, center);
+        max-width: 952px;
+        width: 100%;
+        margin-top: 0;
+        height: auto;
+        margin-bottom: 130px;
+
+        .banner-section1 {
+            @include flexBox(column, center, center);
+            max-width: 952px;
+            width: calc(100% - 40px);
+            position: absolute;
+            padding: 0px 0px;
+            top: 244px;
+            height: 196px;
+            h2 {
+                width: 176px;
+                height: 103px;
+                font: $unnamed-font-style-normal normal $unnamed-font-weight-600 calc($unnamed-font-size-36/$unnamed-line-spacing-60) $unnamed-font-family-source-serif-pro;
+                font-size: 36px;
+            }
+            .line {
+                margin-top: 0;
+            }
+        }
+    
+        .banner-section2 {
+            padding: 0;
+            width: calc(100% + 40px);
+            img {
+                width: 100%;
+            }
+            padding: 0;
+        }
+    }
+}
