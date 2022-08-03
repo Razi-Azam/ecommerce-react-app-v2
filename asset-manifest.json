@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ecommerce-react-app-v2/static/css/main.cd7890f2.css",
-    "main.js": "/ecommerce-react-app-v2/static/js/main.9b6ce242.js",
+    "main.css": "/ecommerce-react-app-v2/static/css/main.617976c6.css",
+    "main.js": "/ecommerce-react-app-v2/static/js/main.ede9e403.js",
     "static/js/787.4bb2dbfb.chunk.js": "/ecommerce-react-app-v2/static/js/787.4bb2dbfb.chunk.js",
     "static/media/banner-image1.PNG": "/ecommerce-react-app-v2/static/media/banner-image1.4a7f8ca4ef09e235713b.PNG",
     "static/media/men-in-shade.png": "/ecommerce-react-app-v2/static/media/men-in-shade.bbd5d0f21fa3a9a28a0c.png",
@@ -32,12 +32,12 @@
     "static/media/chevron-right.svg": "/ecommerce-react-app-v2/static/media/chevron-right.ee59aa22b6bf156e0eb4aea386711bbf.svg",
     "static/media/chevron-down.svg": "/ecommerce-react-app-v2/static/media/chevron-down.c0c85f0327c8b7a8c6de6a3e5de52404.svg",
     "static/media/check.svg": "/ecommerce-react-app-v2/static/media/check.388123a2385c15dd16c5.svg",
-    "main.cd7890f2.css.map": "/ecommerce-react-app-v2/static/css/main.cd7890f2.css.map",
-    "main.9b6ce242.js.map": "/ecommerce-react-app-v2/static/js/main.9b6ce242.js.map",
+    "main.617976c6.css.map": "/ecommerce-react-app-v2/static/css/main.617976c6.css.map",
+    "main.ede9e403.js.map": "/ecommerce-react-app-v2/static/js/main.ede9e403.js.map",
     "787.4bb2dbfb.chunk.js.map": "/ecommerce-react-app-v2/static/js/787.4bb2dbfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd7890f2.css",
-    "static/js/main.9b6ce242.js"
+    "static/css/main.617976c6.css",
+    "static/js/main.ede9e403.js"
   ]
 }
