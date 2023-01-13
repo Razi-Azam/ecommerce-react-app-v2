@@ -1,3 +1,8 @@
+# Click on the following link to visit the website
+https://razi-azam.github.io/ecommerce-react-app-v2/
+
+![image](https://user-images.githubusercontent.com/106505820/212233025-02466da4-3d95-42fd-850c-41a86d7130f6.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
